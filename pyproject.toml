@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fastapi-async-test"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "UNLISENCED"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9"
+fastapi = "^0.68.0"
+uvicorn = "^0.15.0"
+httpx = "^0.19.0"
+calc = "^1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = "^21.7b0"
+requests = "^2.26.0"
+pytest-asyncio = "^0.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
